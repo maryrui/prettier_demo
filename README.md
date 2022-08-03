@@ -43,17 +43,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### [prettier](https://prettier.io/)
 
-> 1.npm create-react-app --template typescript
-> 2.yarn add --dev --exact prettier
-> 3.echo {}> .prettierrc.json 4.创建 .prettierignore
-> 5.eslint 冲突 yarn add eslint-config-prettier -D
-> 6.npx mrm@2 lint-staged
+- 1.npm create-react-app --template typescript
+- 2.yarn add --dev --exact prettier
+- 3.echo {}> .prettierrc.json 4.创建 .prettierignore
+- 5.eslint 冲突 yarn add eslint-config-prettier -D
+- 6.npx mrm@2 lint-staged
 
 ### [Commitlint](https://github.com/conventional-changelog/commitlint)
 
-> 7.yarn add @commitlint/config-conventional @commitlint/cli -D
-> 8.echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
-> 9.npx husky add .husky/commit-msg "yarn commitlint --edit $1"
+- 7.yarn add @commitlint/config-conventional @commitlint/cli -D
+- 8.echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+- 9.npx husky add .husky/commit-msg "yarn commitlint --edit $1"
 
 ## commit-lint
 
