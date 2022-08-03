@@ -45,7 +45,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 * 1.npm create-react-app --template typescript
 * 2.yarn add --dev --exact prettier
-* 3.echo {}> .prettierrc.json 4.创建 .prettierignore
+* 3.echo {}> .prettierrc.json 
+* 4.创建 .prettierignore
 * 5.eslint 冲突 yarn add eslint-config-prettier -D
 * 6.npx mrm@2 lint-staged
 
